@@ -1,12 +1,12 @@
  # Amapon
 
-##📋 Índice
+📋 Índice
 
-* [Descrição](#-descrição)
-* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-* [Contribuição](#-contribuição)
-* [Licença](#-licença)
-* [Autores](#-autores)
+* [Descrição]
+* [Tecnologias Utilizadas]
+* [Contribuição]
+* [Licença]
+* [Autores]
 
 📄 Descrição
 
@@ -43,3 +43,4 @@ Este projeto está sob licença MIT License .
     * * **[Seu Nome](https://github.com/seuperfil)** - Desenvolvedor Back
       * * **[Seu Nome](https://github.com/seuperfil)** - Designer
         * * **[Seu Nome](https://github.com/seuperfil)** - Documentador
+
