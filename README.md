@@ -1,11 +1,12 @@
  # Amapon
 
 📋 Índice
-•	Descrição
-•	Tecnologias Utilizadas
-•	Contribuição
-•	Licença
-•	Autores
+
+Descrição
+Tecnologias Utilizadas
+Contribuição
+Licença
+Autores
 
 
 📄 Descrição
@@ -34,4 +35,10 @@ Sinta-se à vontade para abrir um issue ou enviar um pull request ! Para contrib
 Este projeto está sob licença MIT License .
 
 🧑‍🤝‍🧑 Autores
-•	Seu Nome - Desenvolvedor Principal
+
+•	Seu Nome - Desenvolvedor Front
+•	Seu Nome - Desenvolvedor Front
+•	Seu Nome - Desenvolvedor Back
+•	Seu Nome - Desenvolvedor Back
+•	Seu Nome - Documentador
+•	Seu Nome - Designer
