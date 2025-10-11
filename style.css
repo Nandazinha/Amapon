@@ -30,7 +30,9 @@
     .banner img.hero-img{max-width:520px; width:100%; border-radius:12px}
 
     /* SECTIONS */
-    section{margin:28px 0}
+    section {
+      margin: 28px 0;
+    }
     h2{font-size:28px; margin:8px 0 20px; text-align:center}
     .card-row{display:flex; gap:20px; justify-content:center; flex-wrap:wrap}
     .card{background:var(--card); border-radius:12px; padding:18px; width:320px; box-shadow:0 6px 18px rgba(0,0,0,0.06)}
