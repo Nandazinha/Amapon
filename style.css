@@ -4,6 +4,7 @@
   --card: #ffffff;            /* branco puro para contraste */
   --accent: #00AEEF;          /* azul principal (da logo) */
   --muted: #ED1C24;           /* vermelho do coração */
+  --detail: #ccccff;          /* cor visível, secundária (não principal) */
   --text: #222222;            /* texto escuro para legibilidade */
   --radius: 20px;             /* bordas mais arredondadas */
   --max-width: 1200px;
@@ -191,6 +192,14 @@ h2 {
   height: 80px;
   object-fit: cover;
   border-radius: var(--radius);
+  border: 2px solid rgba(204,204,255,0.35); /* #ccccff sutil nos detalhes */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.04), 0 0 0 6px rgba(204,204,255,0.03);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.news-item img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.06), 0 0 0 8px rgba(204,204,255,0.06);
 }
 
 /* APOIE */
@@ -198,6 +207,11 @@ h2 {
   border-radius: var(--radius);
   background: linear-gradient(180deg, rgba(0,174,239,0.15), rgba(237,28,36,0.15));
   padding: 22px;
+  /* cor implícita para detalhes */
+  --detail: #ccccff;
+  color: var(--detail);
+  background-image: linear-gradient(180deg, rgba(204,204,255,0.06), transparent);
+  box-shadow: 0 6px 16px rgba(204,204,255,0.12), inset 0 1px 0 rgba(255,255,255,0.6);
   border: 2px dashed rgba(0, 174, 239, 0.6);
 }
 
